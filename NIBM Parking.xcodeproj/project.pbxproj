@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B06426B912D92AD25F6E56F /* Pods_NIBM_ParkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3E812FA1229234101592F3 /* Pods_NIBM_ParkingTests.framework */; };
+		7864011486162EFAE2B61A66 /* Pods_NIBM_Parking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43CB1466BD79E63F312FC0F /* Pods_NIBM_Parking.framework */; };
+		B1ED389E2743CA210042FA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */; };
+		B1ED389F2743CA210042FA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */; };
+		B1ED38A02743CA210042FA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */; };
+		D68454BF104F3432733B2450 /* Pods_NIBM_Parking_NIBM_ParkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091ED0AD0263ED5C2DDD00B /* Pods_NIBM_Parking_NIBM_ParkingUITests.framework */; };
 		EAE11C9B273CF2400020B8EB /* NIBM_ParkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE11C9A273CF2400020B8EB /* NIBM_ParkingApp.swift */; };
 		EAE11C9D273CF2400020B8EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE11C9C273CF2400020B8EB /* ContentView.swift */; };
 		EAE11C9F273CF2420020B8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE11C9E273CF2420020B8EB /* Assets.xcassets */; };
@@ -34,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0091ED0AD0263ED5C2DDD00B /* Pods_NIBM_Parking_NIBM_ParkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_Parking_NIBM_ParkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC48ECF1136738B631BBCC0 /* Pods-NIBM ParkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM ParkingTests.release.xcconfig"; path = "Target Support Files/Pods-NIBM ParkingTests/Pods-NIBM ParkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C3E812FA1229234101592F3 /* Pods_NIBM_ParkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_ParkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E72CA119319D3B043243F1 /* Pods-NIBM Parking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM Parking.debug.xcconfig"; path = "Target Support Files/Pods-NIBM Parking/Pods-NIBM Parking.debug.xcconfig"; sourceTree = "<group>"; };
+		3BC62746750590EB8D1C28E4 /* Pods-NIBM ParkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM ParkingTests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM ParkingTests/Pods-NIBM ParkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3AA069F79F624332B993DF0 /* Pods-NIBM Parking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM Parking.release.xcconfig"; path = "Target Support Files/Pods-NIBM Parking/Pods-NIBM Parking.release.xcconfig"; sourceTree = "<group>"; };
+		B43CB1466BD79E63F312FC0F /* Pods_NIBM_Parking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_Parking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDCA4BBD4D4B37DD6DF6D8D /* Pods-NIBM Parking-NIBM ParkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM Parking-NIBM ParkingUITests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM Parking-NIBM ParkingUITests/Pods-NIBM Parking-NIBM ParkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EAE11C97273CF2400020B8EB /* NIBM Parking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBM Parking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE11C9A273CF2400020B8EB /* NIBM_ParkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_ParkingApp.swift; sourceTree = "<group>"; };
 		EAE11C9C273CF2400020B8EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +59,7 @@
 		EAE11CB1273CF2420020B8EB /* NIBM ParkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NIBM ParkingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE11CB5273CF2420020B8EB /* NIBM_ParkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_ParkingUITests.swift; sourceTree = "<group>"; };
 		EAE11CB7273CF2420020B8EB /* NIBM_ParkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_ParkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE156A346AA8ACB071E4B989 /* Pods-NIBM Parking-NIBM ParkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM Parking-NIBM ParkingUITests.release.xcconfig"; path = "Target Support Files/Pods-NIBM Parking-NIBM ParkingUITests/Pods-NIBM Parking-NIBM ParkingUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7864011486162EFAE2B61A66 /* Pods_NIBM_Parking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B06426B912D92AD25F6E56F /* Pods_NIBM_ParkingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +83,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68454BF104F3432733B2450 /* Pods_NIBM_Parking_NIBM_ParkingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5417AE1419DA8B241C888F55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B43CB1466BD79E63F312FC0F /* Pods_NIBM_Parking.framework */,
+				0091ED0AD0263ED5C2DDD00B /* Pods_NIBM_Parking_NIBM_ParkingUITests.framework */,
+				1C3E812FA1229234101592F3 /* Pods_NIBM_ParkingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0231CABECA5CC287A9762BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28E72CA119319D3B043243F1 /* Pods-NIBM Parking.debug.xcconfig */,
+				B3AA069F79F624332B993DF0 /* Pods-NIBM Parking.release.xcconfig */,
+				BFDCA4BBD4D4B37DD6DF6D8D /* Pods-NIBM Parking-NIBM ParkingUITests.debug.xcconfig */,
+				EE156A346AA8ACB071E4B989 /* Pods-NIBM Parking-NIBM ParkingUITests.release.xcconfig */,
+				3BC62746750590EB8D1C28E4 /* Pods-NIBM ParkingTests.debug.xcconfig */,
+				0DC48ECF1136738B631BBCC0 /* Pods-NIBM ParkingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EAE11C8E273CF2400020B8EB = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +120,8 @@
 				EAE11CAA273CF2420020B8EB /* NIBM ParkingTests */,
 				EAE11CB4273CF2420020B8EB /* NIBM ParkingUITests */,
 				EAE11C98273CF2400020B8EB /* Products */,
+				B0231CABECA5CC287A9762BA /* Pods */,
+				5417AE1419DA8B241C888F55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +138,7 @@
 		EAE11C99273CF2400020B8EB /* NIBM Parking */ = {
 			isa = PBXGroup;
 			children = (
+				B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */,
 				EAE11C9A273CF2400020B8EB /* NIBM_ParkingApp.swift */,
 				EAE11C9C273CF2400020B8EB /* ContentView.swift */,
 				EAE11C9E273CF2420020B8EB /* Assets.xcassets */,
@@ -134,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAE11CBB273CF2420020B8EB /* Build configuration list for PBXNativeTarget "NIBM Parking" */;
 			buildPhases = (
+				A4087A4D8BA369493562DEE7 /* [CP] Check Pods Manifest.lock */,
 				EAE11C93273CF2400020B8EB /* Sources */,
 				EAE11C94273CF2400020B8EB /* Frameworks */,
 				EAE11C95273CF2400020B8EB /* Resources */,
+				BA3B29FCD5C1A1E4AD4F0E75 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAE11CBE273CF2420020B8EB /* Build configuration list for PBXNativeTarget "NIBM ParkingTests" */;
 			buildPhases = (
+				60119D0450CE5A0BB690A56E /* [CP] Check Pods Manifest.lock */,
 				EAE11CA3273CF2420020B8EB /* Sources */,
 				EAE11CA4273CF2420020B8EB /* Frameworks */,
 				EAE11CA5273CF2420020B8EB /* Resources */,
@@ -169,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAE11CC1273CF2420020B8EB /* Build configuration list for PBXNativeTarget "NIBM ParkingUITests" */;
 			buildPhases = (
+				F11DB6F0E886CE4018CF5FF7 /* [CP] Check Pods Manifest.lock */,
 				EAE11CAD273CF2420020B8EB /* Sources */,
 				EAE11CAE273CF2420020B8EB /* Frameworks */,
 				EAE11CAF273CF2420020B8EB /* Resources */,
+				7BDFA0ABFBB54E64299C0A5D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +283,7 @@
 			files = (
 				EAE11CA2273CF2420020B8EB /* Preview Assets.xcassets in Resources */,
 				EAE11C9F273CF2420020B8EB /* Assets.xcassets in Resources */,
+				B1ED389E2743CA210042FA81 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1ED389F2743CA210042FA81 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +299,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1ED38A02743CA210042FA81 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60119D0450CE5A0BB690A56E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIBM ParkingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BDFA0ABFBB54E64299C0A5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM Parking-NIBM ParkingUITests/Pods-NIBM Parking-NIBM ParkingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM Parking-NIBM ParkingUITests/Pods-NIBM Parking-NIBM ParkingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NIBM Parking-NIBM ParkingUITests/Pods-NIBM Parking-NIBM ParkingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4087A4D8BA369493562DEE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIBM Parking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA3B29FCD5C1A1E4AD4F0E75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM Parking/Pods-NIBM Parking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM Parking/Pods-NIBM Parking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NIBM Parking/Pods-NIBM Parking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F11DB6F0E886CE4018CF5FF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIBM Parking-NIBM ParkingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EAE11C93273CF2400020B8EB /* Sources */ = {
@@ -413,6 +569,7 @@
 		};
 		EAE11CBC273CF2420020B8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E72CA119319D3B043243F1 /* Pods-NIBM Parking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,6 +599,7 @@
 		};
 		EAE11CBD273CF2420020B8EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3AA069F79F624332B993DF0 /* Pods-NIBM Parking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +629,7 @@
 		};
 		EAE11CBF273CF2420020B8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC62746750590EB8D1C28E4 /* Pods-NIBM ParkingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +655,7 @@
 		};
 		EAE11CC0273CF2420020B8EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC48ECF1136738B631BBCC0 /* Pods-NIBM ParkingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +681,7 @@
 		};
 		EAE11CC2273CF2420020B8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFDCA4BBD4D4B37DD6DF6D8D /* Pods-NIBM Parking-NIBM ParkingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +705,7 @@
 		};
 		EAE11CC3273CF2420020B8EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE156A346AA8ACB071E4B989 /* Pods-NIBM Parking-NIBM ParkingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
