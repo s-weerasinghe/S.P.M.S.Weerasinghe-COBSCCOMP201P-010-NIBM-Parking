@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		3B06426B912D92AD25F6E56F /* Pods_NIBM_ParkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3E812FA1229234101592F3 /* Pods_NIBM_ParkingTests.framework */; };
 		7864011486162EFAE2B61A66 /* Pods_NIBM_Parking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43CB1466BD79E63F312FC0F /* Pods_NIBM_Parking.framework */; };
+		B11D3D812747EFF100D60669 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11D3D802747EFF100D60669 /* Launch Screen.storyboard */; };
+		B11D3D822747EFF100D60669 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11D3D802747EFF100D60669 /* Launch Screen.storyboard */; };
+		B11D3D832747EFF100D60669 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11D3D802747EFF100D60669 /* Launch Screen.storyboard */; };
+		B1A3AF272746B806001AA7F6 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A3AF262746B806001AA7F6 /* login.swift */; };
+		B1A3AF282746B806001AA7F6 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A3AF262746B806001AA7F6 /* login.swift */; };
+		B1A3AF292746B806001AA7F6 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A3AF262746B806001AA7F6 /* login.swift */; };
 		B1ED389E2743CA210042FA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */; };
 		B1ED389F2743CA210042FA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */; };
 		B1ED38A02743CA210042FA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */; };
@@ -45,6 +51,8 @@
 		1C3E812FA1229234101592F3 /* Pods_NIBM_ParkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_ParkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E72CA119319D3B043243F1 /* Pods-NIBM Parking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM Parking.debug.xcconfig"; path = "Target Support Files/Pods-NIBM Parking/Pods-NIBM Parking.debug.xcconfig"; sourceTree = "<group>"; };
 		3BC62746750590EB8D1C28E4 /* Pods-NIBM ParkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM ParkingTests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM ParkingTests/Pods-NIBM ParkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B11D3D802747EFF100D60669 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B1A3AF262746B806001AA7F6 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
 		B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B3AA069F79F624332B993DF0 /* Pods-NIBM Parking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM Parking.release.xcconfig"; path = "Target Support Files/Pods-NIBM Parking/Pods-NIBM Parking.release.xcconfig"; sourceTree = "<group>"; };
 		B43CB1466BD79E63F312FC0F /* Pods_NIBM_Parking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_Parking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,8 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				B43CB1466BD79E63F312FC0F /* Pods_NIBM_Parking.framework */,
-				0091ED0AD0263ED5C2DDD00B /* Pods_NIBM_Parking_NIBM_ParkingUITests.framework */,
 				1C3E812FA1229234101592F3 /* Pods_NIBM_ParkingTests.framework */,
+				0091ED0AD0263ED5C2DDD00B /* Pods_NIBM_Parking_NIBM_ParkingUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,6 +151,8 @@
 				EAE11C9C273CF2400020B8EB /* ContentView.swift */,
 				EAE11C9E273CF2420020B8EB /* Assets.xcassets */,
 				EAE11CA0273CF2420020B8EB /* Preview Content */,
+				B1A3AF262746B806001AA7F6 /* login.swift */,
+				B11D3D802747EFF100D60669 /* Launch Screen.storyboard */,
 			);
 			path = "NIBM Parking";
 			sourceTree = "<group>";
@@ -283,6 +293,7 @@
 			files = (
 				EAE11CA2273CF2420020B8EB /* Preview Assets.xcassets in Resources */,
 				EAE11C9F273CF2420020B8EB /* Assets.xcassets in Resources */,
+				B11D3D812747EFF100D60669 /* Launch Screen.storyboard in Resources */,
 				B1ED389E2743CA210042FA81 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11D3D822747EFF100D60669 /* Launch Screen.storyboard in Resources */,
 				B1ED389F2743CA210042FA81 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11D3D832747EFF100D60669 /* Launch Screen.storyboard in Resources */,
 				B1ED38A02743CA210042FA81 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAE11C9D273CF2400020B8EB /* ContentView.swift in Sources */,
+				B1A3AF272746B806001AA7F6 /* login.swift in Sources */,
 				EAE11C9B273CF2400020B8EB /* NIBM_ParkingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAE11CAC273CF2420020B8EB /* NIBM_ParkingTests.swift in Sources */,
+				B1A3AF282746B806001AA7F6 /* login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAE11CB6273CF2420020B8EB /* NIBM_ParkingUITests.swift in Sources */,
+				B1A3AF292746B806001AA7F6 /* login.swift in Sources */,
 				EAE11CB8273CF2420020B8EB /* NIBM_ParkingUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,6 +598,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -612,6 +629,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
