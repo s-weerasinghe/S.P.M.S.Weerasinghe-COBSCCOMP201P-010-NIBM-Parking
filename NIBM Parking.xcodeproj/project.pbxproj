@@ -12,9 +12,14 @@
 		B11D3D812747EFF100D60669 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11D3D802747EFF100D60669 /* Launch Screen.storyboard */; };
 		B11D3D822747EFF100D60669 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11D3D802747EFF100D60669 /* Launch Screen.storyboard */; };
 		B11D3D832747EFF100D60669 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11D3D802747EFF100D60669 /* Launch Screen.storyboard */; };
-		B1A3AF272746B806001AA7F6 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A3AF262746B806001AA7F6 /* login.swift */; };
-		B1A3AF282746B806001AA7F6 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A3AF262746B806001AA7F6 /* login.swift */; };
-		B1A3AF292746B806001AA7F6 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A3AF262746B806001AA7F6 /* login.swift */; };
+		B1722D33274E20E000ED5A9D /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1722D32274E20E000ED5A9D /* Booking.swift */; };
+		B195B97D274D1DE8005274B6 /* QR Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B97C274D1DE8005274B6 /* QR Code.swift */; };
+		B195B97E274D1DE8005274B6 /* QR Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B97C274D1DE8005274B6 /* QR Code.swift */; };
+		B195B97F274D1DE8005274B6 /* QR Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B97C274D1DE8005274B6 /* QR Code.swift */; };
+		B195B982274D286B005274B6 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = B195B981274D286B005274B6 /* CodeScanner */; };
+		B195B984274D53B6005274B6 /* Settingview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B983274D53B6005274B6 /* Settingview.swift */; };
+		B195B985274D53B6005274B6 /* Settingview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B983274D53B6005274B6 /* Settingview.swift */; };
+		B195B986274D53B6005274B6 /* Settingview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B983274D53B6005274B6 /* Settingview.swift */; };
 		B1ED389E2743CA210042FA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */; };
 		B1ED389F2743CA210042FA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */; };
 		B1ED38A02743CA210042FA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */; };
@@ -52,7 +57,9 @@
 		28E72CA119319D3B043243F1 /* Pods-NIBM Parking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM Parking.debug.xcconfig"; path = "Target Support Files/Pods-NIBM Parking/Pods-NIBM Parking.debug.xcconfig"; sourceTree = "<group>"; };
 		3BC62746750590EB8D1C28E4 /* Pods-NIBM ParkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM ParkingTests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM ParkingTests/Pods-NIBM ParkingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B11D3D802747EFF100D60669 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		B1A3AF262746B806001AA7F6 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		B1722D32274E20E000ED5A9D /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		B195B97C274D1DE8005274B6 /* QR Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QR Code.swift"; sourceTree = "<group>"; };
+		B195B983274D53B6005274B6 /* Settingview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settingview.swift; sourceTree = "<group>"; };
 		B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B3AA069F79F624332B993DF0 /* Pods-NIBM Parking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM Parking.release.xcconfig"; path = "Target Support Files/Pods-NIBM Parking/Pods-NIBM Parking.release.xcconfig"; sourceTree = "<group>"; };
 		B43CB1466BD79E63F312FC0F /* Pods_NIBM_Parking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_Parking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B195B982274D286B005274B6 /* CodeScanner in Frameworks */,
 				7864011486162EFAE2B61A66 /* Pods_NIBM_Parking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,6 +129,31 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B1722D34274E20F900ED5A9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B11D3D802747EFF100D60669 /* Launch Screen.storyboard */,
+				B195B97C274D1DE8005274B6 /* QR Code.swift */,
+				B195B983274D53B6005274B6 /* Settingview.swift */,
+				B1722D32274E20E000ED5A9D /* Booking.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1722D35274E214900ED5A9D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1722D37274E218C00ED5A9D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		EAE11C8E273CF2400020B8EB = {
 			isa = PBXGroup;
 			children = (
@@ -146,13 +179,14 @@
 		EAE11C99273CF2400020B8EB /* NIBM Parking */ = {
 			isa = PBXGroup;
 			children = (
+				B1722D37274E218C00ED5A9D /* ViewModels */,
+				B1722D35274E214900ED5A9D /* Models */,
+				B1722D34274E20F900ED5A9D /* Views */,
 				B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */,
 				EAE11C9A273CF2400020B8EB /* NIBM_ParkingApp.swift */,
 				EAE11C9C273CF2400020B8EB /* ContentView.swift */,
 				EAE11C9E273CF2420020B8EB /* Assets.xcassets */,
 				EAE11CA0273CF2420020B8EB /* Preview Content */,
-				B1A3AF262746B806001AA7F6 /* login.swift */,
-				B11D3D802747EFF100D60669 /* Launch Screen.storyboard */,
 			);
 			path = "NIBM Parking";
 			sourceTree = "<group>";
@@ -200,6 +234,9 @@
 			dependencies = (
 			);
 			name = "NIBM Parking";
+			packageProductDependencies = (
+				B195B981274D286B005274B6 /* CodeScanner */,
+			);
 			productName = "NIBM Parking";
 			productReference = EAE11C97273CF2400020B8EB /* NIBM Parking.app */;
 			productType = "com.apple.product-type.application";
@@ -275,6 +312,9 @@
 				Base,
 			);
 			mainGroup = EAE11C8E273CF2400020B8EB;
+			packageReferences = (
+				B195B980274D286B005274B6 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = EAE11C98273CF2400020B8EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -426,9 +466,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B195B97D274D1DE8005274B6 /* QR Code.swift in Sources */,
+				B195B984274D53B6005274B6 /* Settingview.swift in Sources */,
 				EAE11C9D273CF2400020B8EB /* ContentView.swift in Sources */,
-				B1A3AF272746B806001AA7F6 /* login.swift in Sources */,
 				EAE11C9B273CF2400020B8EB /* NIBM_ParkingApp.swift in Sources */,
+				B1722D33274E20E000ED5A9D /* Booking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,8 +478,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B195B985274D53B6005274B6 /* Settingview.swift in Sources */,
+				B195B97E274D1DE8005274B6 /* QR Code.swift in Sources */,
 				EAE11CAC273CF2420020B8EB /* NIBM_ParkingTests.swift in Sources */,
-				B1A3AF282746B806001AA7F6 /* login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,8 +488,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B195B97F274D1DE8005274B6 /* QR Code.swift in Sources */,
+				B195B986274D53B6005274B6 /* Settingview.swift in Sources */,
 				EAE11CB6273CF2420020B8EB /* NIBM_ParkingUITests.swift in Sources */,
-				B1A3AF292746B806001AA7F6 /* login.swift in Sources */,
 				EAE11CB8273CF2420020B8EB /* NIBM_ParkingUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,12 +639,14 @@
 				DEVELOPMENT_TEAM = 75VX4FQSWP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera to Scan QR Codes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -626,12 +672,14 @@
 				DEVELOPMENT_TEAM = 75VX4FQSWP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera to Scan QR Codes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -785,6 +833,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B195B980274D286B005274B6 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B195B981274D286B005274B6 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B195B980274D286B005274B6 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EAE11C8F273CF2400020B8EB /* Project object */;
 }
