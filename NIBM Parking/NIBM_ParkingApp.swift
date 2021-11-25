@@ -11,20 +11,53 @@ import Firebase
 @main
 struct NIBM_ParkingApp: App {
     
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
-class AppDelegate: NSObject, UIApplicationDelegate{
-    func application(_ application: UIApplication, didFinishLaunchingwithOptions launchOptions:
-                     [UIApplication.LaunchOptionsKey : Any]? = nil)-> Bool {
-        FirebaseApp.configure()
-        
-        return true
+            
+
+
+
+        var body: some Scene {
+
+            WindowGroup {
+
+                let viewModel = AuthViewModel()
+
+               
+
+                //TabSelectionView()
+
+                   // .environmentObject(viewModel)
+
+        }
+
     }
-}
+
+        
+
+    }
+
+
+
+    class AppDelegate: NSObject,UIApplicationDelegate{
+
+        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions:
+
+                         [UIApplication.LaunchOptionsKey : Any]? = nil)-> Bool {
+
+           
+
+            
+
+            FirebaseApp.configure()
+
+            
+
+            return true
+
+        }
+
+    }
+
+

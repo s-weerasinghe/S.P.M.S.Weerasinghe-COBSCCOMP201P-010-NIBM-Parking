@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		3B06426B912D92AD25F6E56F /* Pods_NIBM_ParkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3E812FA1229234101592F3 /* Pods_NIBM_ParkingTests.framework */; };
 		7864011486162EFAE2B61A66 /* Pods_NIBM_Parking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43CB1466BD79E63F312FC0F /* Pods_NIBM_Parking.framework */; };
+		B1002671274EB0CF00906922 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1002670274EB0CF00906922 /* Home.swift */; };
+		B1002679274F2C2C00906922 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1002678274F2C2C00906922 /* SignIn.swift */; };
+		B100267B274F2DA300906922 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100267A274F2DA300906922 /* AuthView.swift */; };
+		B100267D274F2E4700906922 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100267C274F2E4700906922 /* SignUp.swift */; };
+		B100267F274F2EA500906922 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100267E274F2EA500906922 /* HomeView.swift */; };
+		B1002681274F2F6B00906922 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1002680274F2F6B00906922 /* UserModel.swift */; };
 		B11D3D812747EFF100D60669 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11D3D802747EFF100D60669 /* Launch Screen.storyboard */; };
 		B11D3D822747EFF100D60669 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11D3D802747EFF100D60669 /* Launch Screen.storyboard */; };
 		B11D3D832747EFF100D60669 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11D3D802747EFF100D60669 /* Launch Screen.storyboard */; };
-		B1722D33274E20E000ED5A9D /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1722D32274E20E000ED5A9D /* Booking.swift */; };
 		B195B97D274D1DE8005274B6 /* QR Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B97C274D1DE8005274B6 /* QR Code.swift */; };
 		B195B97E274D1DE8005274B6 /* QR Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B97C274D1DE8005274B6 /* QR Code.swift */; };
 		B195B97F274D1DE8005274B6 /* QR Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B97C274D1DE8005274B6 /* QR Code.swift */; };
@@ -56,8 +61,14 @@
 		1C3E812FA1229234101592F3 /* Pods_NIBM_ParkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_ParkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E72CA119319D3B043243F1 /* Pods-NIBM Parking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM Parking.debug.xcconfig"; path = "Target Support Files/Pods-NIBM Parking/Pods-NIBM Parking.debug.xcconfig"; sourceTree = "<group>"; };
 		3BC62746750590EB8D1C28E4 /* Pods-NIBM ParkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM ParkingTests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM ParkingTests/Pods-NIBM ParkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1002670274EB0CF00906922 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B1002678274F2C2C00906922 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		B100267A274F2DA300906922 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		B100267C274F2E4700906922 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		B100267E274F2EA500906922 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B1002680274F2F6B00906922 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		B11D3D802747EFF100D60669 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		B1722D32274E20E000ED5A9D /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		B129D333274F7FA300F321AE /* NIBM-Parking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NIBM-Parking-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B195B97C274D1DE8005274B6 /* QR Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QR Code.swift"; sourceTree = "<group>"; };
 		B195B983274D53B6005274B6 /* Settingview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settingview.swift; sourceTree = "<group>"; };
 		B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -129,13 +140,23 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B1002673274F2A9300906922 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1002678274F2C2C00906922 /* SignIn.swift */,
+				B100267C274F2E4700906922 /* SignUp.swift */,
+				B100267E274F2EA500906922 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B1722D34274E20F900ED5A9D /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				B11D3D802747EFF100D60669 /* Launch Screen.storyboard */,
+				B1002670274EB0CF00906922 /* Home.swift */,
 				B195B97C274D1DE8005274B6 /* QR Code.swift */,
 				B195B983274D53B6005274B6 /* Settingview.swift */,
-				B1722D32274E20E000ED5A9D /* Booking.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -143,6 +164,7 @@
 		B1722D35274E214900ED5A9D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B1002680274F2F6B00906922 /* UserModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,6 +172,7 @@
 		B1722D37274E218C00ED5A9D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B100267A274F2DA300906922 /* AuthView.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -179,6 +202,8 @@
 		EAE11C99273CF2400020B8EB /* NIBM Parking */ = {
 			isa = PBXGroup;
 			children = (
+				B129D333274F7FA300F321AE /* NIBM-Parking-Info.plist */,
+				B1002673274F2A9300906922 /* View */,
 				B1722D37274E218C00ED5A9D /* ViewModels */,
 				B1722D35274E214900ED5A9D /* Models */,
 				B1722D34274E20F900ED5A9D /* Views */,
@@ -470,7 +495,12 @@
 				B195B984274D53B6005274B6 /* Settingview.swift in Sources */,
 				EAE11C9D273CF2400020B8EB /* ContentView.swift in Sources */,
 				EAE11C9B273CF2400020B8EB /* NIBM_ParkingApp.swift in Sources */,
-				B1722D33274E20E000ED5A9D /* Booking.swift in Sources */,
+				B100267F274F2EA500906922 /* HomeView.swift in Sources */,
+				B1002671274EB0CF00906922 /* Home.swift in Sources */,
+				B1002679274F2C2C00906922 /* SignIn.swift in Sources */,
+				B100267B274F2DA300906922 /* AuthView.swift in Sources */,
+				B1002681274F2F6B00906922 /* UserModel.swift in Sources */,
+				B100267D274F2E4700906922 /* SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +669,8 @@
 				DEVELOPMENT_TEAM = 75VX4FQSWP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NIBM-Parking-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera to Scan QR Codes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -672,6 +704,8 @@
 				DEVELOPMENT_TEAM = 75VX4FQSWP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NIBM-Parking-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera to Scan QR Codes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
