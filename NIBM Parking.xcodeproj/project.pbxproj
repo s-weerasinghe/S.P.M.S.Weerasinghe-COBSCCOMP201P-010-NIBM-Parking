@@ -25,6 +25,7 @@
 		B195B984274D53B6005274B6 /* Settingview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B983274D53B6005274B6 /* Settingview.swift */; };
 		B195B985274D53B6005274B6 /* Settingview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B983274D53B6005274B6 /* Settingview.swift */; };
 		B195B986274D53B6005274B6 /* Settingview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B983274D53B6005274B6 /* Settingview.swift */; };
+		B1B8AF072750000300FAE22E /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B8AF062750000300FAE22E /* Booking.swift */; };
 		B1ED389E2743CA210042FA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */; };
 		B1ED389F2743CA210042FA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */; };
 		B1ED38A02743CA210042FA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */; };
@@ -71,6 +72,7 @@
 		B129D333274F7FA300F321AE /* NIBM-Parking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NIBM-Parking-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B195B97C274D1DE8005274B6 /* QR Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QR Code.swift"; sourceTree = "<group>"; };
 		B195B983274D53B6005274B6 /* Settingview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settingview.swift; sourceTree = "<group>"; };
+		B1B8AF062750000300FAE22E /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
 		B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B3AA069F79F624332B993DF0 /* Pods-NIBM Parking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM Parking.release.xcconfig"; path = "Target Support Files/Pods-NIBM Parking/Pods-NIBM Parking.release.xcconfig"; sourceTree = "<group>"; };
 		B43CB1466BD79E63F312FC0F /* Pods_NIBM_Parking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_Parking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -212,6 +214,7 @@
 				EAE11C9C273CF2400020B8EB /* ContentView.swift */,
 				EAE11C9E273CF2420020B8EB /* Assets.xcassets */,
 				EAE11CA0273CF2420020B8EB /* Preview Content */,
+				B1B8AF062750000300FAE22E /* Booking.swift */,
 			);
 			path = "NIBM Parking";
 			sourceTree = "<group>";
@@ -492,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B195B97D274D1DE8005274B6 /* QR Code.swift in Sources */,
+				B1B8AF072750000300FAE22E /* Booking.swift in Sources */,
 				B195B984274D53B6005274B6 /* Settingview.swift in Sources */,
 				EAE11C9D273CF2400020B8EB /* ContentView.swift in Sources */,
 				EAE11C9B273CF2400020B8EB /* NIBM_ParkingApp.swift in Sources */,

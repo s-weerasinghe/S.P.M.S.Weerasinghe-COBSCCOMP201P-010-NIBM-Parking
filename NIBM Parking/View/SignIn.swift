@@ -68,3 +68,9 @@ struct SignIn: View{
     }
 
 }
+struct SignIn_Previews: PreviewProvider {
+    static var previews: some View {
+        SignIn()
+    }
+
+}
