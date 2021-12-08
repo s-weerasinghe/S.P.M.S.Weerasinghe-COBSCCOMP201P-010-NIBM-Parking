@@ -14,7 +14,7 @@ struct NIBM_ParkingApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
-            
+    @StateObject var viewModel = AuthViewModel()
 
 
 
@@ -22,9 +22,10 @@ struct NIBM_ParkingApp: App {
 
             WindowGroup {
 
-                let viewModel = AuthViewModel()
+                
 
-               
+               ContentView()
+                    .environmentObject(viewModel)
 
                 //TabSelectionView()
 

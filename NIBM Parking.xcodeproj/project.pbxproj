@@ -18,9 +18,6 @@
 		B11D3D812747EFF100D60669 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11D3D802747EFF100D60669 /* Launch Screen.storyboard */; };
 		B11D3D822747EFF100D60669 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11D3D802747EFF100D60669 /* Launch Screen.storyboard */; };
 		B11D3D832747EFF100D60669 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11D3D802747EFF100D60669 /* Launch Screen.storyboard */; };
-		B195B97D274D1DE8005274B6 /* QR Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B97C274D1DE8005274B6 /* QR Code.swift */; };
-		B195B97E274D1DE8005274B6 /* QR Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B97C274D1DE8005274B6 /* QR Code.swift */; };
-		B195B97F274D1DE8005274B6 /* QR Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B97C274D1DE8005274B6 /* QR Code.swift */; };
 		B195B982274D286B005274B6 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = B195B981274D286B005274B6 /* CodeScanner */; };
 		B195B984274D53B6005274B6 /* Settingview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B983274D53B6005274B6 /* Settingview.swift */; };
 		B195B985274D53B6005274B6 /* Settingview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195B983274D53B6005274B6 /* Settingview.swift */; };
@@ -70,7 +67,6 @@
 		B1002680274F2F6B00906922 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		B11D3D802747EFF100D60669 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B129D333274F7FA300F321AE /* NIBM-Parking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NIBM-Parking-Info.plist"; sourceTree = SOURCE_ROOT; };
-		B195B97C274D1DE8005274B6 /* QR Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QR Code.swift"; sourceTree = "<group>"; };
 		B195B983274D53B6005274B6 /* Settingview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settingview.swift; sourceTree = "<group>"; };
 		B1B8AF062750000300FAE22E /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
 		B1ED389D2743CA210042FA81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -157,7 +153,6 @@
 			children = (
 				B11D3D802747EFF100D60669 /* Launch Screen.storyboard */,
 				B1002670274EB0CF00906922 /* Home.swift */,
-				B195B97C274D1DE8005274B6 /* QR Code.swift */,
 				B195B983274D53B6005274B6 /* Settingview.swift */,
 			);
 			path = Views;
@@ -494,7 +489,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B195B97D274D1DE8005274B6 /* QR Code.swift in Sources */,
 				B1B8AF072750000300FAE22E /* Booking.swift in Sources */,
 				B195B984274D53B6005274B6 /* Settingview.swift in Sources */,
 				EAE11C9D273CF2400020B8EB /* ContentView.swift in Sources */,
@@ -513,7 +507,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B195B985274D53B6005274B6 /* Settingview.swift in Sources */,
-				B195B97E274D1DE8005274B6 /* QR Code.swift in Sources */,
 				EAE11CAC273CF2420020B8EB /* NIBM_ParkingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,7 +515,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B195B97F274D1DE8005274B6 /* QR Code.swift in Sources */,
 				B195B986274D53B6005274B6 /* Settingview.swift in Sources */,
 				EAE11CB6273CF2420020B8EB /* NIBM_ParkingUITests.swift in Sources */,
 				EAE11CB8273CF2420020B8EB /* NIBM_ParkingUITestsLaunchTests.swift in Sources */,
